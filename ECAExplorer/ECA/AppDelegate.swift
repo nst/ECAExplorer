@@ -35,7 +35,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, RuleViewDelegate, ECAViewDel
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-
+    
     override func awakeFromNib() {
         super.awakeFromNib()
 
@@ -129,4 +129,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, RuleViewDelegate, ECAViewDel
             }.resume()
     }
 
+    // MARK: NSApplicationDelegate
+    
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        return true
+    }
 }
