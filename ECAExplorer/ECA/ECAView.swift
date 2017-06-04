@@ -101,9 +101,14 @@ class ECAView: NSView {
     override func mouseDragged(with event: NSEvent) {
         let clickPoint = convert(event.locationInWindow, from: self.superview)
         let col = Int(clickPoint.x / CGFloat(CELL_SIZE))
-        if delegate?.ecaModel.firstRow[col] != colFlipInitialState { return }
-
-        colFlipInitialState = delegate?.ecaModel.firstRow[col]
+        
+        guard let row = delegate?.ecaModel.firstRow else { return }
+        guard col >= 0 else { return }
+        guard col < row.count else { return }
+        
+        if row[col] != colFlipInitialState { return }
+        
+        colFlipInitialState = row[col]
         delegate?.ecaModel.flipColumn(column: col)
         
         self.needsDisplay = true
