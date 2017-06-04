@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		038C31741EE34A460071546D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038C31731EE34A460071546D /* AppDelegate.swift */; };
+		038C31761EE34A460071546D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038C31751EE34A460071546D /* Assets.xcassets */; };
+		038C31791EE34A460071546D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038C31771EE34A460071546D /* MainMenu.xib */; };
+		038C31831EE34B5F0071546D /* ECAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038C31821EE34B5F0071546D /* ECAView.swift */; };
+		038C31851EE34B6F0071546D /* RuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038C31841EE34B6F0071546D /* RuleView.swift */; };
+		038C31871EE35FE90071546D /* ECAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038C31861EE35FE90071546D /* ECAModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		038C31701EE34A460071546D /* ECAExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECAExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		038C31731EE34A460071546D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		038C31751EE34A460071546D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		038C31781EE34A460071546D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		038C317A1EE34A460071546D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		038C31821EE34B5F0071546D /* ECAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECAView.swift; sourceTree = "<group>"; };
+		038C31841EE34B6F0071546D /* RuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleView.swift; sourceTree = "<group>"; };
+		038C31861EE35FE90071546D /* ECAModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECAModel.swift; sourceTree = "<group>"; };
+		038C31881EE464F10071546D /* ECAExplorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ECAExplorer.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		038C316D1EE34A460071546D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038C31671EE34A460071546D = {
+			isa = PBXGroup;
+			children = (
+				038C31881EE464F10071546D /* ECAExplorer.entitlements */,
+				038C31721EE34A460071546D /* ECA */,
+				038C31711EE34A460071546D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		038C31711EE34A460071546D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				038C31701EE34A460071546D /* ECAExplorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		038C31721EE34A460071546D /* ECA */ = {
+			isa = PBXGroup;
+			children = (
+				038C31841EE34B6F0071546D /* RuleView.swift */,
+				038C31821EE34B5F0071546D /* ECAView.swift */,
+				038C31731EE34A460071546D /* AppDelegate.swift */,
+				038C31861EE35FE90071546D /* ECAModel.swift */,
+				038C31751EE34A460071546D /* Assets.xcassets */,
+				038C31771EE34A460071546D /* MainMenu.xib */,
+				038C317A1EE34A460071546D /* Info.plist */,
+			);
+			path = ECA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		038C316F1EE34A460071546D /* ECAExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 038C317D1EE34A460071546D /* Build configuration list for PBXNativeTarget "ECAExplorer" */;
+			buildPhases = (
+				038C316C1EE34A460071546D /* Sources */,
+				038C316D1EE34A460071546D /* Frameworks */,
+				038C316E1EE34A460071546D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECAExplorer;
+			productName = ECA;
+			productReference = 038C31701EE34A460071546D /* ECAExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		038C31681EE34A460071546D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nicolas Seriot";
+				TargetAttributes = {
+					038C316F1EE34A460071546D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VBYRKYS73S;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 038C316B1EE34A460071546D /* Build configuration list for PBXProject "ECAExplorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 038C31671EE34A460071546D;
+			productRefGroup = 038C31711EE34A460071546D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				038C316F1EE34A460071546D /* ECAExplorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		038C316E1EE34A460071546D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038C31761EE34A460071546D /* Assets.xcassets in Resources */,
+				038C31791EE34A460071546D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		038C316C1EE34A460071546D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038C31851EE34B6F0071546D /* RuleView.swift in Sources */,
+				038C31831EE34B5F0071546D /* ECAView.swift in Sources */,
+				038C31741EE34A460071546D /* AppDelegate.swift in Sources */,
+				038C31871EE35FE90071546D /* ECAModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		038C31771EE34A460071546D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				038C31781EE34A460071546D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		038C317B1EE34A460071546D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		038C317C1EE34A460071546D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		038C317E1EE34A460071546D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ECAExplorer.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VBYRKYS73S;
+				INFOPLIST_FILE = ECA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.seriot.ECA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		038C317F1EE34A460071546D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ECAExplorer.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VBYRKYS73S;
+				INFOPLIST_FILE = ECA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.seriot.ECA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		038C316B1EE34A460071546D /* Build configuration list for PBXProject "ECAExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038C317B1EE34A460071546D /* Debug */,
+				038C317C1EE34A460071546D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		038C317D1EE34A460071546D /* Build configuration list for PBXNativeTarget "ECAExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038C317E1EE34A460071546D /* Debug */,
+				038C317F1EE34A460071546D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 038C31681EE34A460071546D /* Project object */;
+}
